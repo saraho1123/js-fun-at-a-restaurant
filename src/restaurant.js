@@ -10,7 +10,12 @@ function createRestaurant(restaurant) {
 }
 
 function addMenuItem(restaurant, lunchKey) {
-  return restaurant.menus[lunchKey.type].push(lunchKey);
+  // return restaurant.menus[lunchKey.type].push(lunchKey);
+  for (var i = 0; i < restaurant.menus[lunchKey.type].length; i++) {
+  if (restaurant.menus[lunchKey.type][i] == false {
+    restaurant.menus[lunchKey.type].push(lunchKey))
+  }
+}
 
 }
 
